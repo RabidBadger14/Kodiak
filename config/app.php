@@ -205,6 +205,8 @@ return [
         'Entrust' => 'Zizaco\Entrust\EntrustFacade',
         'Form' => 'Collective\Html\FormFacade',
         'Html' => 'Collective\Html\HtmlFacade',
+        'Laracasts\Flash\FlashServiceProvider',
+        'Flash' => 'Laracasts\Flash\Flash',
 	],
 
 ];
