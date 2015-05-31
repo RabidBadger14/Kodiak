@@ -149,6 +149,7 @@ return [
          * Vendor Service Providers
          */
         'Zizaco\Entrust\EntrustServiceProvider',
+        'Collective\Html\HtmlServiceProvider',
 
 	],
 
@@ -201,7 +202,9 @@ return [
         /*
          * Vendor Facades
          */
-        'Entrust' => 'Zizaco\Entrust\EntrustFacade'
+        'Entrust' => 'Zizaco\Entrust\EntrustFacade',
+        'Form' => 'Collective\Html\FormFacade',
+        'Html' => 'Collective\Html\HtmlFacade',
 	],
 
 ];
