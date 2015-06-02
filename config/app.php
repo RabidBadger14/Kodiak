@@ -108,7 +108,7 @@ return [
 	|
 	*/
 
-	'providers' => [
+	'providers' => array(
 
 		/*
 		 * Laravel Framework Service Providers...
@@ -150,8 +150,10 @@ return [
          */
         'Zizaco\Entrust\EntrustServiceProvider',
         'Collective\Html\HtmlServiceProvider',
+        'Laracasts\Flash\FlashServiceProvider',
+        'Conner\Tagging\TaggingServiceProvider',
 
-	],
+    ),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -205,7 +207,6 @@ return [
         'Entrust' => 'Zizaco\Entrust\EntrustFacade',
         'Form' => 'Collective\Html\FormFacade',
         'Html' => 'Collective\Html\HtmlFacade',
-        'Laracasts\Flash\FlashServiceProvider',
         'Flash' => 'Laracasts\Flash\Flash',
 	],
 
